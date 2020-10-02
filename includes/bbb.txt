@@ -1,0 +1,103 @@
+<ul class="dropdown-menu">
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EXHIBITION</a>
+                            <ul class="dropdown-menu">
+                           <li><a href="addexh.php">Add EXHIBITION</a></li>
+
+                        <li><a href="exhview.php">View EXHIBITION</a></li>
+                            </ul>
+
+
+                         <ul class="dropdown-menu">
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Competition</a>
+                            <ul class="dropdown-menu">
+                          <li><a href="addcom.php">Add Competition</a></li>
+
+                        <li><a href="corview.php">View Competition</a></li>
+                            </ul>
+
+
+                        <ul class="dropdown-menu">
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teacher Area</a>
+                            <ul class="dropdown-menu">
+                          <li><a href="TeacherEntry.php">Add Teacher</a></li>
+
+                        <li><a href="teachview.php">View Teacher</a></li>
+                            </ul>
+
+
+
+                        echo ' 
+                      <li class="active dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu">
+\                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Photo Gallery</a>
+                            <ul class="dropdown-menu">
+                              <li><a href="photo-gallery3col.html">Gallery 3 Columns</a></li>
+                              <li><a href="photo-gallery4col.html">Gallery 4 Columns</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apply Now</a>
+                            <ul class="dropdown-menu">
+                              <li><a href="buying-steps.html">Apply For Addmission</a></li>
+                              <li><a href="buying-confirmation.html">Confirmation</a></li>
+                            </ul>
+                          </li>
+
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apply Now</a>
+                            <ul class="dropdown-menu">
+                              <li><a href="buying-steps.html">Apply For Addmission</a></li>
+                              <li><a href="buying-confirmation.html">Confirmation</a></li>
+                            </ul>
+                          </li>
+
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses Area</a>
+                            <ul class="dropdown-menu">
+                               <li><a href="cor.php">Add Courses</a></li>
+
+                        <li><a href="corview.php">View Courses</a></li>
+                            </ul>
+                          </li>
+
+                        </li>
+
+          ';
+
+
+
+echo ' <li class=" dropdown">
+                        <a href="ExamEntry.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Exam Entry</a>
+                       
+                      </li>';
+
+                       echo ' <li class=" dropdown">
+                        <a href="ExamEntry.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Student Area </a>
+                        <ul class="dropdown-menu">
+                          <li><a href="addstd.php">Add Student</a></li>
+
+                        <li><a href="viewstd.php">View Student</a></li>
+                        <li><a href="stdlist.php">Apply List</a></li>
+
+                          
+                        </ul>
+                      </li>
+
+<li class=" dropdown">
+             +          <a href="ExamEntry.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Batch</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="cbatch.php">Create Batch</a></li>
+
+                        <li><a href="mbatch.php">View Student</a></li>
+                        <li><a href="stdlist.php">Apply List</a>
+
+                          
+                        </ul>
+                      </li>
+
+                      ';
